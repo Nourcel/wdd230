@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Pangolin&family=Tillana&display=swap');
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: cornflowerblue;
+  }
+  
+  header, footer {
+      background-color: coral;
+      text-align: center;
+      margin: 1.25rem auto;
+      max-width: 760px;
+      border-radius: 10px;
+      font-family: 'Pangolin', serif;
+  }
+  footer {
+      padding: 0.75rem;
+  }
+
+  
+  main {
+        margin: 0 auto;
+        max-width: 760px;
+        display: grid;
+        grid-gap: 5px;
+    }
+
+ .plan1, .plan2, .plan3{
+     background-color: cornsilk;
+     text-align: center;
+     font-family: 'Tillana', Helvetica, sans-serif;
+     border-radius:25px 25px 0 0;
+     border:solid black;
+    
+}
+
+ main image {
+        max-width: 100px;
+ }
+
+ h1, h2{
+     margin: auto;
+ }
+ h3{
+    background-color: coral; 
+    padding-top: 0px;
+    margin: auto; 
+    border-radius: 25px  25px 0 0;   
+ }
+ 
+ main p{
+     text-align: center;
+     padding:5px;
+ }
+ footer p{
+     margin: auto;
+ }
+  

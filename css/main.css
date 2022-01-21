@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Pangolin&family=Tillana&display=swap');
+
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: beige;
+}
+
+header,
+main,
+footer {
+  margin: 1.25rem auto;
+  max-width: 760px;
+}
+
+header {
+  font-family: 'Pangolin', serif;
+  background-color: #b3d9ff;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px black;
+}
+img{
+ width:150px;
+ float: right;
+ margin-top: -125px;
+ border: solid black;
+}
+
+h2 {
+  font-family: 'Tillana', Helvetica, sans-serif;
+}
+
+footer {
+  background-color: #b3d9ff;
+  font-family: 'Tillana', Helvetica, sans-serif;
+  padding: 0.75rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #000;
+}
+
