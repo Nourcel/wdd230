@@ -39,4 +39,7 @@ footer {
   text-align: center;
   box-shadow: 5px 5px 5px #000;
 }
+a{
+  text-decoration: none;
+}
 
