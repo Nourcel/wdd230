@@ -11,13 +11,13 @@ body{
   padding: 1em;
 }
 nav {
-    background-color: #17c3b2 ;
+    background-color: #227c9d ;
     padding: 1em;
     /*width: 100%;*/
-    border-radius: 25px 25px 0 0;
+    /*border-radius: 25px 25px 0 0;*/
   }
   nav ul li a{
-  background-color: #17c3b2;
+  background-color: #227c9d;
   color: #ffcfb7;
 	display: block;
 	text-align: center;
@@ -26,15 +26,18 @@ nav {
 	font-size: 0.95rem;
   font-family:'Pangolin', Helvetica, serif;
 }
-
-  
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
 nav a:hover {
-    color: #17c3b2;
+    color: #227c9d;
     background-color: #ffcb77;
     border-radius: 5px;
     box-shadow: 2px 6px 12px ;
   }
-
 
   .logo {
     width: 120px;
@@ -51,11 +54,19 @@ nav a:hover {
     background-color:#17c3b2;
     border-radius: 25px 25px 0 0;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1{
+    font-family:'Fruktur',serif;
+    color: #fe6d73;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+
+  } 
+  h2, h3, h4, h5, h6 {
     font-family: 'Pangolin', serif;
-    font-size: 1.75em;
-    line-height: 1.1em;
-    color: #800000;
+    /*font-size: 1.75em;*/
+    /*line-height: 1.1em;*/
+    color: #fe6d73;
     text-align: center;
     padding: 10px;
     margin-bottom: 0;
@@ -67,18 +78,26 @@ nav a:hover {
     line-height: 1.35em;
     margin-top: 0;
     padding: 10px;
-    color: #330000;
+    color: #227c9d;
     text-align: center;
   }
 
   footer {
-    background-color: #17c3b2;
+    background-color: #227c9d;
     align-items: center;
     justify-content: center;
     line-height: 2.75em;
     margin: 0.5rem;
     padding-top: 0.5rem;
     }
+  footer p {
+    color: #ffcfb7;
+   }
+
+  footer a{
+    color: #ffcfb7;
+    text-decoration: none;
+  }
   .colors {
     width: 100%;
     max-width: 350px;
