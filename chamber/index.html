@@ -9,16 +9,22 @@
     <title>Home page cape town chamber of commerce</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
-    <link href="" rel="stylesheet">
-    <link href="" rel="stylesheet">
-    <script defer src=""></script>
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <script defer src="js/date.js"></script>
     
 </head>
 <header>
-
-</header>
+<div class="logo-box">
+    <img class="logo" src="images/chamber of commerce2.png" alt="cape town chamber of commerce logo">
+</div>
+<div class="container3">
+<h1>Cape Town chamber</h1><br>
+<h2>chamber of commerce</h2>
+</div>
 <nav>
-    <ul>
+    <button id="humbugerbtn"><span>&#9776</span><span>X</span></button>
+    <ul id="primaryNav">
         <li>
         <a href="index.html">Home</a>
         </li>
@@ -36,6 +42,7 @@
         </li>
     </ul>
     </nav>
+</header>
 <body>
     <main>
         <div class ="container">
@@ -44,14 +51,43 @@
             <div id="content3">Join</div>
             <div id="content4">Here with site name and call to action</div>
             <div id="content5">News Release</div>
-            <div id="content6">Spotlight</div>
+            <div id="content6">
+                <div id="spotligth1">spotligth1</div>
+                <div id="spotligth2">spotligth2</div>
+                <div id="spotligth3">spotligth3</div>
+            </div>
         </div>
     </main>
     <footer>
-        <p> &copy;<span id="currentyear"></span> .:|:. Nourcel Kaniki Kalonji .:|:. Cape Town, South Africa<br>
-            <a href="https://www.byui.edu/online">BYU Idaho Online Learning .:|:.</a>
-             <a href="https://nourcel.github.io/wdd230/">Portal .:|:.</a>
+    <div class ="container2">
+
+    <div id="address">
+        <div>
+        <img class="logo" src="images/chamber of commerce2.png" alt="cape town chamber of commerce logo">
+        </div>
+        <div class="address1">
+        <p>Cape Town chamber of commerce<br>
+            PO Box 204, Cape Town 8000<br>
+             South Africa 
+        </p>
+        </div>  
+    </div>
+
+    <div id="contact">
+        <p>info@townchamber.co.za<br>
+           Tel: +27 21 581 2103<br>
+           Location Map
+        </p>
+    </div>
+        
+    <div id="info">
+        <hr>
+        <p> &copy;<span id="currentyear"></span> | Nourcel Kaniki Kalonji | Cape Town, South Africa<br>
+            <a href="https://www.byui.edu/online">BYU Idaho Online Learning |</a>
+             <a href="https://nourcel.github.io/wdd230/">Portal |</a>
          <a id="lastmod"></a></p>
+    </div>
+    </div>
     </footer>
     
 </body>
