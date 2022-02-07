@@ -114,14 +114,16 @@ padding: .35em;
 .container{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     background-color: white;
-    grid-template-areas:
-        "content1 content4 content4 content6" 
-        "content2 content4 content4 content6"
-        "content3 content5 content5 content6";
     gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "content4"
+        "content1" 
+        "content2" 
+        "content5"
+        "content6";
 }
 
 #content1{
@@ -137,12 +139,12 @@ padding: .35em;
     padding: 15px;   
        
 }
-#content3{ 
+/*#content3{ 
     grid-area: content3;
     background-color: #ffcfb7;
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 15px;   
-}
+}*/
 #content4{
     grid-area: content4;
     background-color: #ffcfb7;
@@ -163,10 +165,9 @@ padding: .35em;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
     "spotlight1"
-    "spotlight1"
-    "spotlight1";
+    "spotlight2";
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);   
+    border: 1px solid rgba(0, 0, 0, 0.5);  
 }
 
 #content6>div{
@@ -175,6 +176,10 @@ padding: 10px;
 border: 1px solid rgba(0, 0, 0, 0.5);
     
 }
+#spotlight3{
+    display: none;
+}
+
 
  
 h2, h3, h4, h5, h6 {

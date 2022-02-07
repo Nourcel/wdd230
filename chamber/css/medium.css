@@ -9,22 +9,54 @@
 
     nav ul li a{
         border:none;
-       /* border-right: 1px solid rgba(0,0,0,0.3);*/
+       border-right: 1px solid rgba(0,0,0,0.3);
     }
 
-    /*.container{
+    .container{
         display: grid;
         height: 100vh;
-        grid-template-columns: 1fr;
+        grid-template-columns:(8, 1fr);
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         background-color: white;
         grid-template-areas:
-            "content4" 
-            "content5"
-            "content6"
-            "content3"
-            "content1 content2";
+            "content4 content4 content4 content4 content4 content4 content4 content4" 
+            "content5 content5 content5 content5 content5 content5 content5 content5"
+            "content6 content6 content6 content6 content6 content6 content6 content6"
+            "content3 content3 content3 content3 content3 content3 content3 content3"
+            "content1 content1 content1 content1 content1 content2 content2 content2";
         gap: 5px;
+    }
+
+    #content1{
+        grid-area: content1;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;
+    }  
+    #content2{ 
+        grid-area: content2;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;   
+           
+    }
+    #content3{ 
+        grid-area: content3;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;   
+    }
+    #content4{
+        grid-area: content4;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;      
+    }
+    #content5{ 
+        grid-area: content5;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;     
     }
 
     #content6{ 
@@ -34,8 +66,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas:
-        "spotlight1"
-        "spotlight1";
+        "spotlight1 spotlight2";
         padding: 10px;
         border: 1px solid rgba(0, 0, 0, 0.5);   
     }
@@ -45,5 +76,10 @@
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.5);
         
-    }*/
+    }
+    #spotlight3{
+        display: none;
+    }
+
+    
 }

@@ -2,4 +2,111 @@
     nav ul li a{
         padding: .5rem 1rem;
     }
+
+    body {
+        max-width: 960px;
+        margin: auto;
+    }
+nav ul {
+        display: flex;
+    }
+ nav ul li {
+        flex: 1 1 100%;
+ }
+
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: white;
+        grid-template-areas:
+            "content1 content4 content4 content6" 
+            "content2 content4 content4 content6"
+            "content3 content5 content5 content6";
+        gap: 5px;
+    }
+    
+    #content1{
+        grid-area: content1;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;
+    }  
+    #content2{ 
+        grid-area: content2;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;   
+           
+    }
+    #content3{ 
+        grid-area: content3;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;   
+    }
+    #content4{
+        grid-area: content4;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;      
+    }
+    #content5{ 
+        grid-area: content5;
+        background-color: #ffcfb7;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 15px;     
+    }
+    #content6{ 
+        grid-area: content6;
+        background-color: #ffcfb7;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "spotlight1"
+        "spotlight2"
+        "spotlight3";
+        padding: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.5);   
+    }
+    
+    #content6>div{
+        
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr;
+        grid-template-areas:
+            "address contact" 
+            "info info";
+        gap: 5px;
+       height: fit-content;
+       padding: -150px;
+    }
+    
+    .address1{
+        margin-left: 130px;
+        margin-top: -100px;
+    }
+    
+    #address{
+        grid-area: address;
+    }
+    
+    #contact{
+        grid-area: contact;
+        justify-content: right;
+    }
+    
+    #info{
+        grid-area: info;
+    }
+    
 }
