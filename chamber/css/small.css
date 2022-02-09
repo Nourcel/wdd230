@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Pangolin&family=Tillana&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
 body{
-    max-width: 940px;
     margin: 0 auto;
     padding: 1em;
   }
+  
 
 main {
     margin: 0.3em;
     padding: 0.3rem;
     /*background-color: #fef9ef;*/
-    align-items: center;
+    text-align: left;
   }
 
 header {
-    display: flex;
+    /*display: block;*/
     align-items: center;
     margin: 0 auto;
     padding: 5px 0;
@@ -43,14 +50,24 @@ header h2{
 .container3{
       /*margin-left: 120px;
       margin-top: -90px;*/
-      display: flex;
+      display: block;
       flex-direction: column;
       margin-left: .5rem;
   }
 
 .social{
-    margin-right: .5rem;
+   display: inline-block;
 }
+
+.date{
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+    border-radius: 25px;
+    text-align: center;
+}
+
 
 nav button{
     margin: .2rem 2vw;
@@ -58,6 +75,7 @@ nav button{
     border: none;
     font-size: 2rem;
     color: #555;
+    text-align: left;
 }
 nav{
     /*background-color: #222e9d ;*/
@@ -106,78 +124,101 @@ nav ul.open{
 
 .logo {
 width: 120px;
-/*position: center;*/
+position: center;
 border-radius: 50px;
 padding: .35em;
 }
-
-.container{
-    display: grid;
-    height: 100vh;
-    background-color: white;
-    gap: 5px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-        "content4"
-        "content1" 
-        "content2" 
-        "content5"
-        "content6";
+.logo-box{
+    position: static;
 }
+
+main section{
+    /*height: 100px;*/
+    /*background-color: white;*/
+    background-color: #ffcfb7;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.2rem;
+    margin: 0.2rem;
+    
+}
+/*main section {
+    border: 1px solid #f37748;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #f9e177;
+  }*/
 
 #content1{
     grid-area: content1;
-    background-color: #ffcfb7;
+    min-height: 12rem;
+    /*background-color: #ffcfb7;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;
+    padding: 15px;*/
 }  
 #content2{ 
     grid-area: content2;
-    background-color: #ffcfb7;
+    min-height: 12rem;
+    /*background-color: #ffcfb7;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;   
+    padding: 15px; */  
        
 }
-/*#content3{ 
+#content3{
     grid-area: content3;
-    background-color: #ffcfb7;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;   
-}*/
+    min-height: 12rem;
+}
+#content3{
+    display: none;
+}
 #content4{
     grid-area: content4;
-    background-color: #ffcfb7;
+    min-height: 12rem;
+    /*background-color: #ffcfb7;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;      
+    padding: 15px;*/      
 }
 #content5{ 
     grid-area: content5;
-    background-color: #ffcfb7;
+    min-height: 12rem;
+    /*background-color: #ffcfb7;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;     
+    padding: 15px;*/     
 }
 #content6{ 
     grid-area: content6;
-    background-color: #ffcfb7;
+    padding: 1rem;
+    /*background-color: #ffcfb7;*/
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
+    grid-template-rows: 1fr 1fr;
+    /*grid-template-areas:
     "spotlight1"
-    "spotlight2";
-    padding: 10px;
+    "spotlight1";*/
+    min-height: 12rem;
     border: 1px solid rgba(0, 0, 0, 0.5);  
 }
 
-#content6>div{
+.spotlight1, 
+.spotlight2
+.spotlight3{
     
-padding: 10px;
+padding: 0.5rem;
+min-height: 12rem;
 border: 1px solid rgba(0, 0, 0, 0.5);
     
 }
-#spotlight3{
-    display: none;
+.spotlight1{
+    min-height: 12rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.spotlight2{
+    min-height: 12rem;
+    grid-column: 1/2;
+    grid-area: 2/3;
+}
+#content6 div:nth-child(3){
+display: none;
 }
 
 
@@ -225,11 +266,13 @@ footer a{
 
 .container2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
     grid-template-areas:
-        "address contact" 
-        "info info";
+        "address" 
+        "contact" 
+        "info" 
+        "info";
     gap: 5px;
    height: fit-content;
    padding: -150px;
@@ -246,7 +289,7 @@ footer a{
 
 #contact{
     grid-area: contact;
-    justify-content: right;
+    /*justify-content: right;*/
 }
 
 #info{
