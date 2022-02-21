@@ -21,13 +21,11 @@ main {
   }
 
 header {
-    /*display: block;*/
-    align-items: center;
+    display: block;
+    /*align-items: center;*/
     margin: 0 auto;
     padding: 5px 0;
     justify-content: space-between;
-    /*max-width: 900px;*/
-    /*background-color:#17c3b2;*/
     border-radius: 25px 25px 0 0;
     background-color: #222e9d;
   }
@@ -35,25 +33,28 @@ header {
 h1{
     font-family:'Fruktur',serif;
     color: #fe6d73;
-    /*text-align: center;*/
-    padding: 10px;
-    margin-top: 0;
+    margin-left: 0px; 
   }
 
 header h2{
-     margin-top: -50px;
+    color: #fe6d73;
      font-family: 'Pangolin', serif;
-     color: #fe6d73;
+     margin-top: -50px;
+     margin-left: 0px;
      text-align: left;
-  }
+     }
 
 .container3{
-      /*margin-left: 120px;
-      margin-top: -90px;*/
-      display: block;
+      display: flex;
       flex-direction: column;
-      margin-left: .5rem;
-  }
+      justify-content: center;
+      align-items: center;
+      
+  }*/
+.action{
+    display:flex;
+    flex-direction: column;
+}
 
 .social{
    display: inline-block;
@@ -122,14 +123,31 @@ nav ul.open{
 #humbugerbtn.open span:nth-child(1){display: none;}
 #humbugerbtn.open span:nth-child(2){display: block;}
 
+/*#humbugerbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+
 .logo {
+display: flex;
+align-items: center;
 width: 120px;
 position: center;
 border-radius: 50px;
 padding: .35em;
+margin-left: 120px;
 }
 .logo-box{
-    position: static;
+    position: relative;
 }
 
 main section{
@@ -244,6 +262,8 @@ p {
 }
 
 footer {
+display:flex;
+flex-direction: column;
 background-color: #222e9d;
 align-items: center;
 justify-content: center;
@@ -265,7 +285,9 @@ footer a{
 }
 
 .container2{
-    display: grid;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows:  1fr;
     grid-template-areas:
@@ -279,17 +301,21 @@ footer a{
 }
 
 .address1{
-    margin-left: 130px;
-    margin-top: -100px;
+    /*display: flex;*/
+    align-items: center;
+    margin-left: 10px;
+    margin-top: -10px;
 }
 
 #address{
+    /*display: flex;*/
     grid-area: address;
 }
 
 #contact{
+    /*display: flex;*/
     grid-area: contact;
-    /*justify-content: right;*/
+    justify-content: right;
 }
 
 #info{

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 45.5rem) {
     nav button{display: none;}
 
     nav ul#primaryNav {
@@ -47,59 +47,33 @@
         grid-row: 1/2;
     }
 
-    /*#content1{
-        grid-area: content1;
-        background-color: #ffcfb7;
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        padding: 15px;
-    }  
-    #content2{ 
-        grid-area: content2;
-        background-color: #ffcfb7;
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        padding: 15px;   
-           
-    }
-    #content3{ 
-        grid-area: content3;
-        background-color: #ffcfb7;
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        padding: 15px;   
-    }
-    #content4{
-        grid-area: content4;
-        background-color: #ffcfb7;
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        padding: 15px;      
-    }
-    #content5{ 
-        grid-area: content5;
-        background-color: #ffcfb7;
-        border: 1px solid rgba(0, 0, 0, 0.5);
-        padding: 15px;     
-    }
+   
+    .logo {
+        
+        align-items: center;
+        width: 120px;
+        position: center;
+        border-radius: 50px;
+        padding: .35em;
+        margin-left: 0;
+        }
 
-    #content6{ 
-        grid-area: content6;
-        background-color: #ffcfb7;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-        "spotlight1 spotlight2";
-        padding: 10px;
-        border: 1px solid rgba(0, 0, 0, 0.5);   
-    }
+    .container3{
+            display: flex;
+            margin-left: 120px;
+            margin-top: -80px;
+        }
     
-    #content6>div{
-        
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-        
-    }
-    #spotlight3{
-        display: none;
-    }*/
+    .action1{
+            display:flex;
+        }
+    .navigation{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    .social{
+            margin-top: 25px;
+        }
     .container2{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -114,11 +88,13 @@
     
     .address1{
         margin-left: 130px;
-        margin-top: -100px;
+        margin-top: -70px;
+        flex-direction: column;
     }
     
     #address{
-        grid-area: address;
+        display: flex;
+        flex-direction: column;
     }
     
     #contact{

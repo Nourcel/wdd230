@@ -1,0 +1,14 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: khaki;
+}
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
