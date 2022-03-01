@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    background-color: burlywood;
+}
+
+
+table { 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-collapse: collapse;
+    overflow: hidden;
+    transition: 500ms;
+    
+}
+table, th, td {
+    border: 1px solid rgb(199, 199, 199);
+    text-align: center;
+}
+th, td {
+    padding: .5em;
+}
+thead, tfoot {
+    background-color: rgb(15, 201, 201);
+}
+thead {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+tbody th, tbody tr:nth-child(5) td:nth-child(3){
+    color: white;
+    font-weight: bold;
+    background-color: rgb(70, 133, 185);
+}
+tbody tr:nth-child(6) td:nth-child(1) {
+    font-style: italic;
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(186, 235, 186);
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(223, 223, 223);
+}
+tfoot {
+    font-size: .8em;
+}
