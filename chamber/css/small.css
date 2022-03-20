@@ -155,20 +155,24 @@ main section{
 #content1{
     grid-area: content1;
     min-height: 12rem;
+    min-width: 8rem;
     
 }  
 #content2{ 
     grid-area: content2;
     min-height: 12rem;
+    min-width: 8rem;
     
        
 }
 #content3{
     grid-area: content3;
     min-height: 12rem;
+    min-width: 8rem;
 }
 #content3{
     display: none;
+    text-align: center;
 }
 #content4{
     grid-area: content4;
@@ -225,7 +229,7 @@ h2, h3, h4, h5, h6 {
 
 p {
   font-family:'Tillana', Helvetica, sans-serif;
-  font-size: 1.25em;
+  font-size:.95em;
   line-height: 1.35em;
   margin-top: 0;
   padding: 10px;
@@ -352,24 +356,25 @@ div#weather-img-container h3 {
     border: 1px solid #D11848;
     margin: .2rem 1rem;
 }
-
 button#join-button {
-    margin-top: .5rem;
-    padding: .4rem 3rem;
-    border-radius: .3rem;
-    border: 1px solid #1E9DA4;
-    color: #FFF;
-    background-color: #1E9DA4;
+    margin-top: .8rem;
+    margin-bottom: .5rem;
+    padding: .3rem .1rem;
+    border-radius: .4rem;
+    border: 1px solid #222e9d;
+    color: #ffcb77;
+    background-color: #222e9d;
     transition: 0.2s;
 }
 
 button#join-button{
-    color: #FFF;
+    color: #ffcb77;
     transition: 0.2s;
 }
 
 button#join-button:hover{
-    color: #1E9DA4;
-    background-color: #F8F8F8;
+    color: #222e9d;
+    background-color: #ffcb77;
 }
+
 
