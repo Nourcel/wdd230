@@ -16,13 +16,12 @@ body{
 main {
     margin: 0.3em;
     padding: 0.3rem;
-    /*background-color: #fef9ef;*/
-    text-align: left;
+    text-align: center;
+    background-color:#ffcfb7;
   }
 
 header {
     display: block;
-    /*align-items: center;*/
     margin: 0 auto;
     padding: 5px 0;
     justify-content: space-between;
@@ -79,13 +78,12 @@ nav button{
     text-align: left;
 }
 nav{
-    /*background-color: #222e9d ;*/
+    
     padding: 1em;
-    /*width: 100%;*/
-    /*border-radius: 25px 25px 0 0;*/
+    
 }
 nav ul li a{
-  /*background-color: #222e9d;*/
+  
   color: #ffcfb7;
   display: block;
   text-align: center;
@@ -98,9 +96,7 @@ nav ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-/*overflow: hidden;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); */
+
 }
 
 nav ul li a:hover {
@@ -123,11 +119,7 @@ nav ul.open{
 #humbugerbtn.open span:nth-child(1){display: none;}
 #humbugerbtn.open span:nth-child(2){display: block;}
 
-/*#humbugerbtn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
+
 
 .social{
     display: flex;
@@ -151,34 +143,24 @@ margin-left: 120px;
 }
 
 main section{
-    /*height: 100px;*/
-    /*background-color: white;*/
+    
     background-color: #ffcfb7;
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 0.2rem;
     margin: 0.2rem;
     
 }
-/*main section {
-    border: 1px solid #f37748;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    background-color: #f9e177;
-  }*/
+
 
 #content1{
     grid-area: content1;
     min-height: 12rem;
-    /*background-color: #ffcfb7;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;*/
+    
 }  
 #content2{ 
     grid-area: content2;
     min-height: 12rem;
-    /*background-color: #ffcfb7;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px; */  
+    
        
 }
 #content3{
@@ -191,27 +173,19 @@ main section{
 #content4{
     grid-area: content4;
     min-height: 12rem;
-    /*background-color: #ffcfb7;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;*/      
+    
 }
 #content5{ 
     grid-area: content5;
     min-height: 12rem;
-    /*background-color: #ffcfb7;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 15px;*/     
+    
 }
 #content6{ 
     grid-area: content6;
     padding: 1rem;
-    /*background-color: #ffcfb7;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    /*grid-template-areas:
-    "spotlight1"
-    "spotlight1";*/
     min-height: 12rem;
     border: 1px solid rgba(0, 0, 0, 0.5);  
 }
@@ -243,8 +217,6 @@ display: none;
  
 h2, h3, h4, h5, h6 {
   font-family: 'Pangolin', serif;
-  /*font-size: 1.75em;*/
-  /*line-height: 1.1em;*/
   color: #fe6d73;
   text-align: center;
   padding: 10px;
@@ -285,7 +257,6 @@ footer a{
 }
 
 .container2{
-    /*display: flex;*/
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr;
@@ -301,24 +272,104 @@ footer a{
 }
 
 .address1{
-    /*display: flex;*/
     align-items: center;
     margin-left: 10px;
     margin-top: -10px;
 }
 
 #address{
-    /*display: flex;*/
     grid-area: address;
 }
 
 #contact{
-    /*display: flex;*/
     grid-area: contact;
     justify-content: right;
 }
 
 #info{
     grid-area: info;
+}
+
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+#discoverGallery {
+	display:grid;
+	grid-template-columns: 1fr;	
+	grid-gap: 30px;
+}
+.galleryBlock {
+	box-shadow: 0px 0px 15px 1px #888888;
+}
+.galleryBlock picture img {
+	width: 100%;
+	height:	auto;
+}
+.galleryBlock p {
+	padding: 10px;
+	margin: 0;
+}
+
+main.myphoto{
+    width: 40%;
+}
+.myphoto img{
+    width: 100%;
+}
+
+div#weather-img-container {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+}
+
+#weather div * {
+    padding: .1rem;
+}
+
+div#weather-img-container h2 {
+    padding: .4rem;
+}
+
+div#weather-img-container h3 {
+    align-self: center;
+    font-size: 1.3rem;
+}
+
+#weather-img-container picture img{
+    width: 50%;
+}
+
+#weather div hr{
+    padding: 0;
+    border: 1px solid #D11848;
+    margin: .2rem 1rem;
+}
+
+button#join-button {
+    margin-top: .5rem;
+    padding: .4rem 3rem;
+    border-radius: .3rem;
+    border: 1px solid #1E9DA4;
+    color: #FFF;
+    background-color: #1E9DA4;
+    transition: 0.2s;
+}
+
+button#join-button{
+    color: #FFF;
+    transition: 0.2s;
+}
+
+button#join-button:hover{
+    color: #1E9DA4;
+    background-color: #F8F8F8;
 }
 

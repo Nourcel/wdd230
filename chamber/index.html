@@ -33,16 +33,16 @@
                     <a href="index.html">Home</a>
                     </li>
                     <li>
-                    <a href="#">Discover</a>
+                    <a href="discover.html">Discover</a>
                     </li>
                     <li>
-                    <a href="#">Directory</a>
+                    <a href="directory.html">Directory</a>
                     </li>
                     <li>
-                    <a href="#">Join</a>
+                    <a href="join.html">Join</a>
                     </li>
                     <li>
-                    <a href="#">Contact</a>
+                    <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -58,11 +58,37 @@
 <body>
     <main>
         <!--<div class ="container">-->
-            <section id="content4"><h3>Here with site name and call to action</h3></section>
+            <section id="content4">
+                <figure class="myphoto">
+                    <img
+                      src="images/small (1).jpg"
+                      alt="people holding a meeting">
+                 </figure>
+                </section>
             <section id="content1"><h3>Event</h3></section>
-            <section id="content2"><h3>Weater</h3></section>
+            <section id="content2">
+                <div>
+                    <h2>Weather</h2>
+                    <div id="weather-img-container">
+                        <picture>
+                            <img id="weather-icon">
+                        </picture>
+                        <h3><span id="temperature"></span> F°</h3>
+                    </div>
+                    <h3 id="weather-description"></h3>
+                    <hr>
+                    <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+                    <p>Wind Chill: <span id="wind-chill"></span></p>
+                </div>
+            </section>
             <section id="content5"><h3>News Release</h3></section>
-            <section id="content3"><h3>Join</h3></section>
+            <section id="content3">
+                <h3>Join</h3>
+                <div>
+                    <a href="join.html"><button id="join-button">Join Us</button></a>
+                <p>Discover How to join the chamber of Commerce and how it will benefit your organization</p>
+                </div>
+            </section>
             <section id="content6">
                 <div class="spotligth1"><h3>spotligth1</h3></div>
                 <div class="spotligth2"><h3>spotligth2</h3></div>
@@ -100,5 +126,6 @@
     </div>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
