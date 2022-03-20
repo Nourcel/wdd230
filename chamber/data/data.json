@@ -6,118 +6,107 @@
             "phone": "(011) 350-4000",
             "level": "Silver",
             "website": "https://www.absa.co.za/",
-            "imageurl": " ",
+            "imageurl": "images/absa logo.webp",
             "alt": "Absa logo"
         },
         {
-            "company": "Bed Bath & Beyond",
-            "slogan": "Beyond Any Store Of Its Kind",
-            "address": "11088 North U.S. 15-501, Aberdeen, North Carolina 28315",
-            "phone": "(910) 695-1010",
+            "company": "Vodacom",
+            "address": " 14A Century Blvd, Century City, Cape Town, 7441",
+            "phone": "011 350 6641",
             "level": "Silver",
-            "website": "https://www.bedbathandbeyond.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/bedbath.png",
-            "alt": "Bed Bath & Beyond Logo"
+            "website": "https://www.vodacom.co.za/",
+            "imageurl": "images/vodacom logo.webp",
+            "alt": "vodacom Logo"
         },
         {
-            "company": "Builders FirstSource ",
-            "slogan": " ",
-            "address": " 3189 NC Highway 5, Aberdeen, North Carolina 28315 ",
-            "phone": "(910) 944-2516 ",
+            "company": "Shoprite Holdings Ltd",
+            "address": " Cnr William Dabbs Street. and Old Paarl Road. Brackenfell. 7560. Western Cape. Postal Address: PO Box 215. ",
+            "phone": " +27(0)21 980 4000 ",
             "level": "Silver",
-            "website": "https://www.builders1stsource.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/buildersfirstsource.png",
-            "alt": "Builders FirstSource Logo"
+            "website": "https://www.shoprite.co.za/",
+            "imageurl": "images/shoprite logo.webp",
+            "alt": "shoprite Logo"
         },
         {
-            "company": "Mac's Breakfast Anytime ",
-            "slogan": "Just Like Grandma's Home Cookin",
-            "address": " 1904 N Sandhills Blvd, Aberdeen, NC 28315",
-            "phone": " (910) 692-9806",
+            "company": "Pick n Pay Stores",
+            "address": "Park 101 Rosmead Avenue Kenilworth Cape Town 7708",
+            "phone": "+27 21 658 1000",
             "level": "Gold",
-            "website": "https://www.macsbreakfast.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/macs.png",
-            "alt": "Mac's Breakfast Anytime Logo"
+            "website": "https://www.pnp.co.za/",
+            "imageurl": "images/picknpay logo.webp",
+            "alt": "pick n pay Logo"
         },
         {
-            "company": "Security Management Inc",
-            "slogan": " ",
-            "address": " 2239 Pinehurst Plz, Aberdeen, NC 28315",
-            "phone": " (910) 215-0616",
+            "company": "Mr Price Group Limited",
+            "address": "2 Dreyer St, Claremont, Cape Town, 7708",
+            "phone": " +27 21 671 0810",
             "level": "Bronze",
-            "website": "https://www.securitymanagement.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/security.png",
-            "alt": "Security Management Inc Logo"
+            "website": "https://www.mrp.com/",
+            "imageurl": "images/mrp logo.webp",
+            "alt": "Mr Price Logo"
         },
         {
-            "company": " Aldi",
-            "slogan": "Spend a little, live a lot",
-            "address": " 1500 N Sandhills Blvd, Aberdeen, NC 28315",
-            "phone": " (855) 955-2534",
+            "company": "Old Mutual plc",
+            "address": " Entrance 1, Jan Smuts Drive, West Campus Mutual Park, Cape Town",
+            "phone": " +27 021 509 5022",
             "level": "Gold",
-            "website": "https://www.aldi.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/aldi.png",
-            "alt": "Aldi Logo"
+            "website": "https://www.oldmutual.co.za/",
+            "imageurl": "images/OldMutual logo.webp",
+            "alt": "Old Mutual plc Logo"
         },
         {
-            "company": "Royal Threads",
-            "slogan": " ",
-            "address": "3250 Nc 5 Hwy, Aberdeen, NC 28315",
-            "phone": "(910) 944-0932",
+            "company": "MTN Group",
+            "address": "14th Avenue. Johannesburg. 2196. South Africa",
+            "phone": "27 11 912 3000",
             "level": "Silver",
-            "website": "https://www.royalthreads.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/royalthreads.png",
-            "alt": "Royal Threads Logo"
+            "website": "https://www.mtn.co.za/",
+            "imageurl": "images/mtn logo.webp",
+            "alt": "MTN Group Logo"
         },
         {
-            "company": "T J Maxx",
-            "slogan": " ",
-            "address": "125 Aberdeen Pines St, Aberdeen, NC 28315",
-            "phone": "(910) 246-5325",
+            "company": "Sanlam",
+            "address": "2 Strand Road Bellville, South Africa",
+            "phone": "+27 21 947-9111",
             "level": "Sliver",
-            "website": "https://www.tjmaxx.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/tjmaxx.png",
-            "alt": "T J Maxx Logo"
+            "website": "https://www.sanlam.co.za/",
+            "imageurl": "images/sanlam-logo-vector.webp",
+            "alt": "Sanlam Logo"
         },
         {
-            "company": "Nail City",
-            "slogan": " ",
-            "address": " 1680 NC Highway 5 Ste 145 Aberdeen, NC 28315",
+            "company": "Cash Crusaders",
+            "address": "1 Lakeside Pl, 7948 Cape Town, Western Cap",
             "level": "Bronze",
-            "phone": " (910) 215-8193",
-            "website": "https://www.nailcity.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/nail.png",
-            "alt": "Nail City Logo"
+            "phone": "+27 21 787 9800",
+            "website": "https://www.cashcrusaders.co.za/",
+            "imageurl": "images/cash crusagers-logo.webp",
+            "alt": "Cash Crusaders Logo"
         },
         {
-            "company": "Next Level Salon and Barber",
-            "slogan": " ",
-            "address": " 101 W South St Aberdeen, NC 28315",
-            "phone": " (910) 944-4756",
-            "level": "Sliver",
-            "website": " https://www.nextlevelsalon.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/salon.png",
-            "alt": "Next Level Salon and Barber Logo"
-        },
-        {
-            "company": "Aberdeen & Rockfish Railroad",
-            "slogan": "Road Of Personal Service",
-            "address": " 101 E. Main St.  Aberdeen NC 28315",
-            "phone": " 910-944-2341",
+            "company": "Anglo American plc",
+            "address": "Marshalltown, Johannesburg, 2001",
+            "phone": "011 638 9111",
             "level": "Gold",
-            "website": " https://www.aberdeen-rockfish.com/",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/rockfish.png",
-            "alt": "Aberdeen & Rockfish Railroad Logo"
+            "website": "https://southafrica.angloamerican.com/",
+            "imageurl": "images/anglo-american-logo.webp",
+            "alt": "Anglo American Logo"
         },
         {
-            "company": "Artist League of the Sandhills",
-            "slogan": " ",
-            "address": " 129 Exchange St., Aberdeen  Aberdeen NC 28315",
-            "phone": " 910-944-3979",
+            "company": "Nedbank",
+            "address": "B Block 1st Floor, 135 Rivonia Road, Sandton,",
+            "phone": "+27 11 294 4444",
+            "level": "Sliver",
+            "website": "https://www.nedbank.co.za/",
+            "imageurl": "images/nedbank logo.webp",
+            "alt": "Nedbank Logo"
+        },
+        {
+            "company": "Takealot.com",
+            "address": "12th Floor, 10 Rua Vasco Da Gama Plain, Foreshore, Cape Town, 8001",
+            "phone": "087 362 8000",
             "level": "Bronze",
-            "website": " http://www.artistleague.org",
-            "imageurl": "https://ksantos16.github.io/wdd230/lesson9/images/artist.png",
-            "alt": "Artist League of the Sandhills Logo"
+            "website": "https://www.takealot.com/",
+            "imageurl": "images/takelot logo.webp",
+            "alt": "Takelot Logo"
         }
     ]
 }
