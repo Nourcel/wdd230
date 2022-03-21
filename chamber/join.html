@@ -55,6 +55,73 @@
     <div class="date"></div>
 
 </header>
+
+<main class="join-main-container">
+    <!--<h1 class="join-title">Aberdeen Chamber of Commerce Membership</h1>-->
+
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Applicant Information</legend>
+
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label class="top" for="title">Title <input type="text" name="title" pattern="[A-Za-z -]{7}"
+                    title="at least 7 letters"></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                    required></label>
+            <label class="top">Phone* <input type="tel" name="phone" required></label>
+            <label class="top">Company Name* <input type="text" name="cname" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Levels</legend>
+
+            <div>Membership Selection</div>
+            <label class="sbs"><input type="radio" name="level" value="np">Non-profit
+                Organization</label>
+            <label class="sbs"><input type="radio" name="level" value="bronze">Bronze Level</label>
+            <label class="sbs"><input type="radio" name="level" value="silver">Silver Level</label>
+            <label class="sbs"><input type="radio" name="level" value="gold">Gold Level</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Company Description</legend>
+
+            <label class="top">Briefly Describe Your Business <textarea rows="4" cols="50" name="comment"
+                    form="usrform">Enter text here...</textarea></label>
+        </fieldset>
+
+        <input class="button" type="submit" value="Submit Application">
+        <input class="formDate" type="hidden" name="completedDate">
+
+    </form>
+
+    <div class="membership-levels">
+        <section>
+            <h2 class="gold">Gold $800 Annually</h2>
+
+            <p>For emerging businesses who are wanting to make meaningful connections and achieve sustainable growth</p>
+        </section>
+
+        <section>
+            <h2 class="silver">Silver $400 Annually</h2>
+            <p>For small businesses who are wanting to network more effectively and grow within their community</p>
+        </section>
+
+        <section>
+            <h2 class="bronze">Bronze $200 Annually</h2>
+            <p>For small businesses who are wanting more exposure</p>
+        </section>
+
+        <section>
+            <h2 class="np">Non-Profit FREE</h2>
+            <p>The Business Builder membership is reserved for businesses that are non-profit
+                Free Customized Landing Page that points to your website</p>
+
+        </section>
+
+    </div>
+</main>
 <body>
     <footer>
         <div class ="container2">

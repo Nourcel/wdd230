@@ -18,7 +18,7 @@ main {
     padding: 0.3rem;
     text-align: center;
     background-color:#ffcfb7;
-  }
+}
 
 header {
     display: block;
@@ -451,4 +451,143 @@ button#join-button:hover{
         border: 1px solid #333;
         border-radius: 3px;
     }
+
+     /* ------------------- JOIN --------------------- */
+
+
+ /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* ----------- apply a natural box layout model to all elements -------------- */
+ /* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } */
+
+
+/* ----------- MAIN -------------- */
+/*main {
+    padding: 0 2%;
+    min-height: 20rem;
+} */
+
+.join-main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+ /* -------------- FORM -------------- */
+
+ form fieldset{
+     margin: 1rem;
+     border: 1.5px solid #333;
+     border-radius: 10px;
+     padding: .5rem 2%;
+     
+ }
+
+ form legend{
+     color: 445ba9;
+     margin: 0 1rem;
+     padding: 0 .5rem;
+ }
+
+ form label.top, form div{
+     display: block;
+     padding-top: 1rem;
+     color: #9c2c13;
+     font-size: .8rem;
+ }
+
+ form label.top input, for label.top select{
+    -webkit-appearance: none; 
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #333;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    background-color: rgba(0,0,0,0.1);
+ }
+
+ form label.sbs{
+     display: block;
+     padding: .75rem;
+     color: #555;
+ }
+
+ form input.submitBtn{
+     border: none;
+     background-color: #9c2c13;
+     color: #333;
+     border-radius: 1rem;
+     padding: .75rem 1.5rem;
+     margin: 0 0 2rem 2%;
+     width: 96%;
+ }
+
+ form label.top input:required{
+     border-left: red solid 6px;
+ }
+
+ form label.top input:required:valid{
+     border-left: green solid 6px;
+ }
+
+ .button { 
+    margin-left: 1rem;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* --------------------- TEXT ------------------------ */
+
+.membership-levels{
+    display: block;
+}
+
+h1.join-title{
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+ul li{
+    text-decoration: none;
+}
+h2.gold, .silver, .bronze, .np{
+    
+    margin-left: 1rem;
+    
+    color:#fe6d73 ;
+    padding: .3rem;
+}
+
+.membership-levels p{
+    margin-left: 1rem;
+}
+
+legend{
+    font-size: 1.2rem;
+    color:#be1922ff;
+}
+
+textarea {
+    width: 93%;
+}
+
+.thanks-main{
+    background-color: #333;
+}
+
+.thanks-title{
+    color: black;
+    margin-top: 1rem;
+}
+
+.thanks-text{
+    font-size: 1.2rem;
+}
     
