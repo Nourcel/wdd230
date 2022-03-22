@@ -590,4 +590,79 @@ textarea {
 .thanks-text{
     font-size: 1.2rem;
 }
+
+.contact-title{
+    /*font-family: var(--heading-text);*/
+    /*color: white;*/
+    margin: 0;
+    font-size: 2rem;
+}
+
+/*.contactheadline{
+    font-family: var(--heading-text);
+    color: var(--accent-color);
+}*/
+
+/*p{
+    font-family: var(--body-text);
+}*/
+
+.contact-main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.infoblock{
+    /*background-color: var(--secondary-color);*/
+    padding: 2rem;
+}
+
+.aberdeeninfo{
+    margin: auto 0;
+    padding: 1rem;
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/*.aberdeeninfo p {
+    color: white;
+}*/
+
+.aberdeeninfo h3{
+    font-family: var(--heading-text);
+    color: var(--accent-color);
+    text-shadow: 1.5px 1.5px var(--secondary-color);
+}
+
+.contactinfo{
+    margin-left: 1rem;
+}
+
+img.contact-picture{
+display: none;
+}
+
+.contactform{
+    font-family: var(--body-text);
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+.message{
+    margin-top: -3rem;
+    font-family: var(--body-text);
+    color: var(--accent-color);
+}
+
+.contactbutton{
+    background-color: #ffcb77;
+    color: blue;
+    border-radius: 3px;
+    border: black;
+    padding: .3rem;
+    position: absolute;
+    margin-top: -3.7rem;
+    margin-left: 2rem;
+}
+
     
