@@ -234,4 +234,12 @@ function displayListDirectory(business) {
         cards.appendChild(card);
         // console.log(classlist);
     }
+    window.addEventListener("load", () => {
+        if (dayNum == 1 || dayNum == 2) {
+          document.querySelector(".banner").style.display = "block";
+        } else {
+          document.querySelector(".banner").style.display = "none";
+        }
+      });
 }
+

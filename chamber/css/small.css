@@ -665,4 +665,20 @@ display: none;
     margin-left: 2rem;
 }
 
-    
+.show{
+    display: block;
+}
+
+#banner{
+    display: none;
+}
+
+#banner {
+    left: 15em;
+    display: flex;
+    justify-content: center;
+    background-color:#222e9d;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
