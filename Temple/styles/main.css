@@ -362,8 +362,8 @@
 *
 ***************/
 #reservationBackground {
-    background-image: url("../images/reservations/reservationBackground.jpg");
-    background-color: #ccc;
+    /*background-image: url("../images/reservations/reservationBackground.jpg");*/
+    background-color:burlywood;
     background-position:center;
 	background-repeat:no-repeat;
     background-size:cover; 
@@ -371,7 +371,7 @@
 }
 /* Form Title */
 #reservationTitle {
-    color: rgb(255,254,254);
+    color: rgb(247, 230, 230);
 }
 
 /* Form Container */
